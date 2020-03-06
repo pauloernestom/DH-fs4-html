@@ -1,0 +1,136 @@
+body {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* padding: 0;
+    outline: 0; */
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    width: 120px;
+    text-align: center;
+    font-size: 25px;
+}
+
+img, ul, a, h1 {
+    display: inline-block;
+}
+
+
+#header {
+    border-bottom: 1px solid #2f2f2f;
+}
+
+#header h1 {
+    font-size: 28px;
+}
+
+#banner {
+    text-align: center;
+    height: 80vh;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #efefef
+}
+
+#banner p {
+    margin-top: 0;
+    padding-top: 200px;
+}
+
+#banner button {
+    border-radius: 10px;
+    height: 40px;
+}
+
+#banner h2 {
+    text-transform: uppercase;
+    font-size: 46px;
+    /* margin: 0 0 15px 0 */
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#banner button {
+    text-transform: uppercase;
+    /* padding: 0 25px 0 25px; */
+    padding: 0 25px;
+    /* padding-right: 25px;
+    padding-left: 25px; */
+}
+
+#banner button:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#imagens {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagens .imagem {
+    /* display: inline-block; */
+    display: flex;
+    /* horizontal */
+    justify-content: center;
+    /* vertical */
+    align-items: flex-end;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    height: 250px;
+    width: 375px;
+    /* background: yellowgreen; */
+}
+
+#imagens .imagem button {
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#imagem1 {
+    background-image: url("../img/product-1.png");
+    background-size: cover;
+}
+
+#imagem2 {
+    background-image: url("../img/product-2.jpg");
+    background-size: cover;
+}
+
+#imagem3 {
+    background-image: url("../img/product-2.jpg");
+    background-size: cover;
+}
+#imagem4 {
+    background-image: url("../img/product-2.jpg");
+    background-size: cover;
+}
+
+#imagem5 {
+    background-image: url("../img/product-2.jpg");
+    background-size: cover;
+}
+
+#imagem6 {
+    background-image: url("../img/product-2.jpg");
+    background-size: cover;
+}
